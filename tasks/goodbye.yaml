@@ -1,0 +1,14 @@
+---
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: goodbye
+spec:
+  steps:
+    - name: goodbye
+      image: ubuntu
+      command:
+        - echo
+      args:
+        - "Goodbye World!"
+
