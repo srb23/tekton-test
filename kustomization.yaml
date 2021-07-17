@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- .git/info/exclude
+- README.md
+- pipelines/hello-goodbye.yaml
+- tasks/goodbye.yaml
+- tasks/hello-world.yaml
