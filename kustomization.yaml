@@ -4,3 +4,4 @@ resources:
 - pipelines/hello-goodbye.yaml
 - tasks/goodbye.yaml
 - tasks/hello-world.yaml
+- tasks/hi-emily.yaml
